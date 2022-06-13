@@ -1,0 +1,96 @@
+body,h1,h2,h3,h4,h5,p,form{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: rgb(121, 196, 2);
+}
+
+a{
+  text-decoration: none;
+}
+
+.main-div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#form-div,
+#button-div,
+#result-div{
+  background-color: rgb(157, 255, 0);
+  width: 60%;
+  padding: 20px 40px;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+#form-div{
+  margin-top: 50px;
+}
+
+#form-div div{
+  background-color: rgb(255, 187, 0);
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 30px;
+  border-radius: 12px;
+}
+
+#form-div p{
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#form-div input,
+#form-div textarea,
+#form-div select{
+  margin-left: 20px;
+  padding: 10px 5px;
+}
+
+h5{
+  margin-left: 20px;
+  color: rgb(55, 0, 255);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input,select,textarea{
+  border:none;
+  border-bottom: 2px solid rgb(255, 0, 0);
+  width: 90%;
+}
+
+#langg-div input,#gender-div input{
+  width: 2%;
+}
+
+input:focus,select:focus,textarea:focus{
+  outline: none;
+  border-bottom: 2px solid rgb(93, 100, 201);
+}
+
+#button-div{
+  margin: 0;
+  text-align: center;
+}
+
+button{
+  margin-left: 30px;
+  padding: 10px 20px;
+  background-color: rgb(255, 187, 0);
+  border: 2px solid red;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover{
+  border: 2px solid rgb(55, 0, 255);
+  background-color: red;
+  color: white;
+}
